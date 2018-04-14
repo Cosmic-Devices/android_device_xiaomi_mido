@@ -281,11 +281,7 @@ on post-fs-data
     mkdir /data/vendor/radio 0770 system radio
 
     # Create directory for modem_config
-<<<<<<< HEAD:rootdir/etc/init.qcom.rc
     mkdir /data/vendor/modem_config 0570 radio root
-=======
-    mkdir /data/vendor/modem_config 0550 system radio
->>>>>>> 41c064a... msm8953-common: Change scripts for copying MBNs:rootdir/init.qcom.rc
 
     chown system system /persist/WCNSS_qcom_wlan_nv.bin
 
