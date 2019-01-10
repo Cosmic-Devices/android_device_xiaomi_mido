@@ -58,7 +58,9 @@ persist.camera.gyro.disable=0 \
 persist.camera.isp.clock.optmz=0 \
 persist.camera.stats.test=5 \
 persist.vendor.qti.telephony.vt_cam_interface=1 \
-vidc.enc.dcvs.extra-buff-count=2
+vidc.enc.dcvs.extra-buff-count=2 \
+persist.camera.HAL3.enabled=1 \
+vendor.camera.hal1.packagelist=com.whatsapp,com.intsig.camscanner,com.instagram.android
 
 # Cne
 PRODUCT_PROPERTY_OVERRIDES += \
