@@ -4,6 +4,7 @@
     <string name="dirac_settings">Configurações do Dirac</string>
     <string name="mi_sound_enhancer">Melhorador de som</string>
     <string name="dirac_preset_title">Predefinição de gênero</string>
+    <string name="dirac_headsets_title">Tipo de fone</string>
     <string name="dirac_headset_default">Padrão</string>
     <string name="dirac_preset_default">Padrão</string>
     <string name="dirac_preset_classical">Clássica</string>
