@@ -4,4 +4,11 @@
         <permission name="android.permission.WRITE_SECURE_SETTINGS"/>
         <permission name="android.permission.GLOBAL_SEARCH"/>
     </privapp-permissions>
+    <privapp-permissions package="com.google.android.gsf.login">
+        <permission name="android.permission.BACKUP"/>
+        <permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+        <permission name="android.permission.DUMP"/>
+        <permission name="android.permission.INVOKE_CARRIER_SETUP"/>
+        <permission name="android.permission.READ_LOGS"/>
+    </privapp-permissions>
 </permissions>
