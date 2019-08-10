@@ -21,17 +21,20 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common HydrusProject stuff.
-$(call inherit-product, vendor/hydrus/config/common_full_phone.mk)
+# Inherit some common Cosmic stuff.
+$(call inherit-product, vendor/cos/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := hydrus_mido
+PRODUCT_NAME := cos_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
+
+# Cosmic-OS Specific Release tag
+COS_RELEASE := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 

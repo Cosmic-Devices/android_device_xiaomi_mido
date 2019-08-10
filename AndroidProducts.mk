@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/hydrus_mido.mk
+    $(LOCAL_DIR)/cos_mido.mk

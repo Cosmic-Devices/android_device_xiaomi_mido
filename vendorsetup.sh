@@ -1,1 +1,1 @@
-add_lunch_combo hydrus_mido-userdebug
+add_lunch_combo cos_mido-userdebug
